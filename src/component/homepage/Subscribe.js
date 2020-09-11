@@ -11,9 +11,9 @@ export default function Subscribe() {
                         <p>Signup for awesome news about our new products and
                             know our special discounts on products.
                         </p>
-                        <div class="input-group mb-3">
+                        <div className="input-group mb-3">
                             <input type="text" className="form-control position-relative sub__input " placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <div class="input-group-append">
+                                <div className="input-group-append">
                                    <button className="btn__radius__sub position-absolute mt-1 bg__theme border-0 text-white px-4">Subscribe</button>
                                 </div>
                         </div>

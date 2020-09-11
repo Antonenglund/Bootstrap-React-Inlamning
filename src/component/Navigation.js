@@ -29,6 +29,7 @@ export default function Navigation() {
                                     Shop <i className=" font-theme ml-1 fas fa-angle-down"></i>  </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link className="dropdown-item" to="/shop">Shop</Link>
+                                   
                                 </div>
                             </li>
                             <li className="nav-item dropdown ml-4 mt-1">
@@ -49,7 +50,7 @@ export default function Navigation() {
                                 <a className="nav-link text__primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Pages <i className=" font-theme ml-1 fas fa-angle-down"></i> </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Action</a>
+                                <Link className="dropdown-item" to="/wishlist">Wishlist</Link>
                                 </div>
                             </li>
                             <li className="nav-item mt-1 ml-4">

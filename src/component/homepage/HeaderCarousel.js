@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderImage from '../../src/images/Header-girls.png'
+import HeaderImage from '../../../src/images/Header-girls.png'
 
 export default function HeaderCarousel() {
     return (

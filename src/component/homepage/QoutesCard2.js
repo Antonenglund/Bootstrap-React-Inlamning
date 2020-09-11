@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageQ from '../../src/images/Quotes/Quoteimg.png'
+import ImageQ from '../../../src/images/Quotes/Quoteimg.png'
 
 export default function QuotesCard2() {
     return (
@@ -7,17 +7,17 @@ export default function QuotesCard2() {
             <div className="container mt-1">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                    <i class="fa-5x fas fa-quote-right text__theme"></i>
+                    <i className="fa-5x fas fa-quote-right text__theme"></i>
                     </div>
                     <div className=" col-lg-12 text-center mt-4">
                         <img src={ImageQ}/>
                     </div>
                     <div className=" col-lg-12 text-center mt-3">
-                        <i class=" stars-active fas fa-star"></i>
-                        <i class=" stars-active fas fa-star"></i>
-                        <i class="stars-active fas fa-star"></i>
-                        <i class="stars-active fas fa-star"></i>
-                        <i class=" text__theme far fa-star"></i>
+                        <i className=" stars-active fas fa-star"></i>
+                        <i className=" stars-active fas fa-star"></i>
+                        <i className="stars-active fas fa-star"></i>
+                        <i className="stars-active fas fa-star"></i>
+                        <i className=" text__theme far fa-star"></i>
                     </div>
                     <div className="col-lg-12 text-center mt-3">
                         <span className="text__theme pb-1 text-uppercase">Anton Karlsson</span> <br></br>

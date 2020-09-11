@@ -1,6 +1,6 @@
 import React from 'react'
 import TopSellersCard from './TopSellersCard'
-import ZikeZake from '../../src/images/ZickZack.png'
+import ZikeZake from '../../../src/images/ZickZack.png'
 
 
 export default function TopSellers() {

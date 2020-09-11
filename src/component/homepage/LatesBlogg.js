@@ -1,7 +1,7 @@
 import React from 'react'
-import ZikeZake from '../../src/images/ZickZack.png'
-import BgBlogg from '../images/BgBlogg.png'
-import CardBlogg from './CardBlogg'
+import ZikeZake from '../../../src/images/ZickZack.png'
+
+import CardBlogg from '../homepage/CardBlogg'
 
 export default function LatesBlogg() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import ZikeZake from '../../src/images/ZickZack.png'
-import CardsArrival from './CardsArrival'
+import ZikeZake from '../../../src/images/ZickZack.png'
+import CardsArrival from '../CardsArrival'
 
 
 
@@ -22,11 +22,13 @@ export default function Arrivals() {
                         <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
                     </ol>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                       
-                        <CardsArrival />         
+                        <div className="carousel-inner">
+                            
+                         <div className="carousel-item active">
+                            <CardsArrival />         
                         </div>
+
+
                         <div className="carousel-item  ">
                         <CardsArrival />    
                         </div>

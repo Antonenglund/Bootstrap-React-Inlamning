@@ -1,5 +1,5 @@
 import React from 'react'
-import ZikeZake from '../../src/images/ZickZack.png'
+import ZikeZake from '../../../src/images/ZickZack.png'
 
 export default function BigImageGridCategory() {
     return (

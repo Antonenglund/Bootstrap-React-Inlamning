@@ -31,24 +31,24 @@ export default function Footer() {
                         <h5 className="text__theme text-uppercase mt-5">Contact info</h5>
                         <div className="col-10">
                             <p className="text__theme mb-0 mt-4">Adress:</p>
-                            <span classNAme="mt-1">Solna Bussnies Park Feni-2500, Stockholm</span>
+                            <span className="mt-1">Solna Bussnies Park Feni-2500, Stockholm</span>
                         </div>
                         <div className="col-10 mt-3">
                             <p className="text__theme mb-0">Phone:</p>
-                            <p classNAme="mt-1 m-0 col-6"> +08 455 555 44</p>
-                            <p classNAme="col-6"> +08 455 555 44</p>
+                            <p className="mt-1 m-0 col-6"> +08 455 555 44</p>
+                            <p className="col-6"> +08 455 555 44</p>
 
 
                         </div>
                         <div className="col-10 mt-3">
                             <p className="text__theme mb-0">Email :</p>
-                            <span classNAme="mt-1"> Kallefisk123@gmail.com</span>
-                            <span classNAme="mt-1"> Kallefisk123@gmail.com</span>
+                            <span className="mt-1"> Kallefisk123@gmail.com</span>
+                            <span className="mt-1"> Kallefisk123@gmail.com</span>
                         </div>
                     </div>
 
 
-                    <div className=" col-md-6 col-lg-3" id="linksfooter">
+                    <div className=" col-md-6 col-lg-3  d-none d-md-block" id="linksfooter">
                         <h5 className="text__theme text-uppercase pt-5">Usefull links</h5>
                         <div className="col-10 mt-4">
                             <span className="footer__hover">Privacy Policy</span>
@@ -71,7 +71,7 @@ export default function Footer() {
                     </div>
                     <div className=" col-md-6 col-lg-3">
                         <h5 className="text__theme text-uppercase pt-5">recent instagram</h5>
-                        <div class="grid-layout-2">
+                        <div className="grid-layout-2">
                             <div className="grid-item-footer"></div>
                             <div className="grid-item-footer "></div>
                             <div className="grid-item-footer "></div>

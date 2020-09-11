@@ -1,6 +1,6 @@
 import React from 'react'
-import ZikeZake from '../../src/images/ZickZack.png'
-import FeatureCards from './FeatureCards'
+import ZikeZake from '../../../src/images/ZickZack.png'
+import FeatureCards from '../homepage/FeatureCards'
 
 export default function FeatureProducts() {
     return (

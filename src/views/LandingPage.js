@@ -1,19 +1,17 @@
 import React from 'react'
-import HeaderNavigation from '../component/HeaderNavigation'
-import HeaderLogoNavigation from '../component/HeaderLogoNavigation';
-import Navigation from '../component/Navigation';
-import HeaderCarousel from '../component/HeaderCarousel';
-import ShipingCards from '../component/ShipingCards';
-import BigImageGridCategory from '../component/BigImageGridCategory';
-import Arrivals from '../component/Arrivals';
-import Banner30off from '../component/Banner30off';
-import LoggoBanner from '../component/LoggoBanner';
-import FlashSale from '../component/FlashSale'
-import LatesBlogg from '../component/LatesBlogg';
-import Subscribe from '../component/reusable-components/Subscribe';
-import FeatureProducts from '../component/FeatureProducts';
-import Quotes from '../component/Quotes';
-import TopSellers from '../component/TopSellers';
+
+import HeaderCarousel from '../component/homepage/HeaderCarousel';
+import ShipingCards from '../component/homepage/ShipingCards';
+import BigImageGridCategory from '../component/homepage/BigImageGridCategory';
+import Arrivals from '../component/homepage/Arrivals';
+import Banner30off from '../component/homepage/Banner30off';
+import LoggoBanner from '../component/homepage/LoggoBanner';
+import FlashSale from '../component/homepage/FlashSale'
+import LatesBlogg from '../component/homepage/LatesBlogg';
+import Subscribe from '../component/homepage/Subscribe';
+import FeatureProducts from '../component/homepage/FeatureProducts'
+import Quotes from '../component/homepage/Quotes';
+import TopSellers from '../component/homepage/TopSellers';
 
 export default function LandingPage() {
     return (

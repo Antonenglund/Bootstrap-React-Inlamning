@@ -16,7 +16,7 @@ export default function ProductCategories() {
     return (
         <div className="container mt-5">
             <div className="row">
-                <div className="col-3">
+                <div className="col-lg-3 col-md-12 ">
                     <p className="text__theme">Product Categories</p>
                     <div className="d-flex justify-content-between hover__categories">
                         <p>Men's</p>
@@ -185,45 +185,45 @@ export default function ProductCategories() {
                     <div className="col-9">
                        <div className="container">
                            <div className="row">
-                               <div className="col-lg-4">
+                               <div className="col-lg-4 col-md-6 ">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4">
+                               <div className="col-lg-4 col-md-6 ">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4">
-                                   <ShopCard />
-                               </div>
-
-
-                               <div className="col-lg-4 mt-4">
-                                   <ShopCard />
-                               </div>
-                               <div className="col-lg-4 mt-4">
-                                   <ShopCard />
-                               </div>
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6 ">
                                    <ShopCard />
                                </div>
 
 
-                               <div className="col-lg-4  mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
+                                   <ShopCard />
+                               </div>
+
+
+                               <div className="col-lg-4 col-md-6   mt-4">
+                                   <ShopCard />
+                               </div>
+                               <div className="col-lg-4 col-md-6  mt-4">
+                                   <ShopCard />
+                               </div>
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
                                
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
-                               <div className="col-lg-4 mt-4">
+                               <div className="col-lg-4 col-md-6  mt-4">
                                    <ShopCard />
                                </div>
                                

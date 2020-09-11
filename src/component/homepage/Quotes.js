@@ -1,7 +1,6 @@
 import React from 'react'
-import QuotesContent from './QuotesCard1'
-import QuotesCard1 from './QuotesCard1'
-import QuotesCard2 from './QoutesCard2'
+import QuotesCard1 from '../homepage/QuotesCard1'
+import QuotesCard2 from '../homepage/QoutesCard2'
 
 export default function Quotes() {
     return (

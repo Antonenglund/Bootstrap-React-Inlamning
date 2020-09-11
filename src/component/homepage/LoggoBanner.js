@@ -1,9 +1,9 @@
 import React from 'react'
-import Bexim from '../../src/images/logobanner/Bexim.png'
-import Lighton from '../../src/images/logobanner/Lighton.png'
-import Dismis from '../../src/images/logobanner/Dismis.png'
-import Rosimo from '../../src/images/logobanner/Rosimo.png'
-import Dallas from '../../src/images/logobanner/Dallas.png'
+import Bexim from '../../../src/images/logobanner/Bexim.png'
+import Lighton from '../../../src/images/logobanner/Lighton.png'
+import Dismis from '../../../src/images/logobanner/Dismis.png'
+import Rosimo from '../../../src/images/logobanner/Rosimo.png'
+import Dallas from '../../../src/images/logobanner/Dallas.png'
 
 export default function LoggoBanner() {
     return (

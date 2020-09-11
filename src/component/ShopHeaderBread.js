@@ -5,7 +5,7 @@ export default function ShopHeaderBread() {
         <div className="bg__shop__header">
             <div className="container">
                 <div className="row">
-                <div className=" col-7 pt-4 mb-2">
+                <div className=" col-4 pt-4 mb-2">
                     <span className="text__theme">Shop</span>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb bg__shop__header px-0">
@@ -14,22 +14,22 @@ export default function ShopHeaderBread() {
                         </ol>
                     </nav>
                 </div>
-                <div className=" col-5 align-self-center d-flex justify-content-around">
-                    <span className="bg-blue rounded py-2 px-3 justify-content-center ml-3">
-                        <small className="text-white">Show: 9/12/18/24</small>
+                <div className=" col-8  align-self-center d-flex  justify-content-end ">
+                    <span className="bg-blue rounded py-2 px-3 justify-content-center mr-3">
+                        <small className="text-white">Show: 9/<span className="text__theme">12</span>/18/24</small>
                     </span>
-                    <span className="bg-blue rounded py-2 px-3">
-                        <i class="fas text-white fa-bars ml-2 mr-2"></i>
-                        <i class="fas fa-th-large text-white mr-2"></i>
-                        <i class="fas fa-th text-white mr-2"></i>
+                    <span className="bg-blue rounded py-2 px-3 mr-3">
+                        <i className="fas text-white fa-bars"></i>
+                        <i className="fas fa-th-large text-white mr-2"></i>
+                        <i className="fas fa-th text-white mr-2"></i>
                     </span>
-                    <div className="dropdown bg-blue px-3">
-                        <small class="btn  text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div classNameName="dropdown bg-blue px-3">
+                        <small className="btn  text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown link <i className=" font-theme ml-1 fas fa-angle-down"></i>
                         </small>
 
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a className="dropdown-item" href="#">Action</a>
                           
                         </div>
                     </div>

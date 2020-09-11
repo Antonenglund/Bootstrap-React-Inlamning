@@ -1,7 +1,7 @@
 import React from 'react'
-import Image1 from '../../src/images/TopSellers/Image1.png'
-import Image2 from '../../src/images/TopSellers/Image2.png'
-import Image3 from '../../src/images/TopSellers/Image3.png'
+import Image1 from '../../../src/images/TopSellers/Image1.png'
+import Image2 from '../../src/../images/TopSellers/Image2.png'
+import Image3 from '../../src/../images/TopSellers/Image3.png'
 
 export default function TopSellersCard() {
     return (

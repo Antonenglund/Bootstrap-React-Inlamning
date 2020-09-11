@@ -1,5 +1,5 @@
 import React from 'react'
-import BgBlogg from '../images/BgBlogg.png'
+import BgBlogg from '../../images/BgBlogg.png'
 
 export default function CardBlogg() {
     return (

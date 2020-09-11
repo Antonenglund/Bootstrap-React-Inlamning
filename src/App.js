@@ -5,6 +5,8 @@ import Footer from '../src/component/Footer'
 import LandingPage from './views/LandingPage';
 import NavigationView from './views/NavigationView';
 import Shop from './views/Shop';
+import SmallHeader from './component/SmallHeader';
+import WishList from '../src/views/WishList'
 
 
 
@@ -22,10 +24,12 @@ function App() {
           <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/shop" component={Shop} />
+          <Route exact path="/wishlist" component={WishList} />
             
 
           </Switch>
           <Footer />
+         
       </BrowserRouter>
 
       
