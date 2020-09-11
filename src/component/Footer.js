@@ -34,11 +34,10 @@ export default function Footer() {
                             <span className="mt-1">Solna Bussnies Park Feni-2500, Stockholm</span>
                         </div>
                         <div className="col-10 mt-3">
-                            <p className="text__theme mb-0">Phone:</p>
-                            <p className="mt-1 m-0 col-6"> +08 455 555 44</p>
-                            <p className="col-6"> +08 455 555 44</p>
-
-
+                            <p className="text__theme mb-0">Phone :</p>
+                            <p className="mt-1"> 073 5738522</p>
+                            <span className="mt-1"> 073 565 3433</span>
+                            
                         </div>
                         <div className="col-10 mt-3">
                             <p className="text__theme mb-0">Email :</p>
@@ -48,7 +47,7 @@ export default function Footer() {
                     </div>
 
 
-                    <div className=" col-md-6 col-lg-3  d-none d-md-block" id="linksfooter">
+                    <div className=" col-md-6 col-lg-3 " id="linksfooter">
                         <h5 className="text__theme text-uppercase pt-5">Usefull links</h5>
                         <div className="col-10 mt-4">
                             <span className="footer__hover">Privacy Policy</span>

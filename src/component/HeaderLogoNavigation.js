@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../src/images/LogoKentaka.png'
+import {Link} from 'react-router-dom'
 
 export default function HeaderLogoNavigation() {
     return (
@@ -30,7 +31,7 @@ export default function HeaderLogoNavigation() {
                 <span className="mr-4">My Account</span>
                 <i className=" fa-lg ml-3 far fa-heart"></i>
                 <i className="fa-lg ml-3 fas fa-random position-relative"><span className="badge rounded-pill badge-primary position-absolute badge__">0</span></i>
-                <i className=" fa-lg ml-3 fas fa-shopping-bag position-relative"><span className="badge rounded-pill badge-primary position-absolute badge__">0</span></i>
+                <Link to="/shopingcart"><i className=" text-dark fa-lg ml-3 fas fa-shopping-bag position-relative"><span className="badge rounded-pill badge-primary position-absolute badge__">0</span></i></Link>
                 <span className="ml-2">$.0.00</span>
             </div>
             

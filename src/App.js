@@ -7,6 +7,7 @@ import NavigationView from './views/NavigationView';
 import Shop from './views/Shop';
 import SmallHeader from './component/SmallHeader';
 import WishList from '../src/views/WishList'
+import ShoppingCart from './views/ShoppingCart';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/shop" component={Shop} />
           <Route exact path="/wishlist" component={WishList} />
+          <Route exact path="/shopingcart" component={ShoppingCart} />
             
 
           </Switch>
