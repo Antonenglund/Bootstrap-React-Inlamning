@@ -607,6 +607,15 @@ padding-bottom: 7rem;
     border: 2px dotted var(--main-theme-color);
   
   }
+  .circle-new-shop {
+    position: absolute;
+    top: -20px;
+    left: 80px;
+    color: white;
+    padding: 22px 16px 22px 16px;
+    background-color: var(--main-theme-color);
+    border-radius: 50px;
+  }
   .sm-h3{
     font-size: 20px;
     margin-top: 7px !important;
@@ -654,6 +663,15 @@ padding-bottom: 7rem;
      margin-top: 50px;
      margin-left: 35px;
    }
+   .circle-new-shop {
+    position: absolute;
+    top: -20px;
+    left: 80px;
+    color: white;
+    padding: 22px 16px 22px 16px;
+    background-color: var(--main-theme-color);
+    border-radius: 50px;
+  }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {

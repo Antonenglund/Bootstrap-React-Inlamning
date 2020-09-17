@@ -6,7 +6,7 @@ export default function Banner30off() {
             <div className="container">
                 <div className="row">
                 <div className=" col-lg-7 text-white">
-                   <div className="col-lg-5 bg__theme text-center py-custom">
+                   <div className="col-lg-5 theme text-center py-custom bg__theme">
                     <span className="extra__h1 font-weight-bold"> 30%</span>
                     <span className="extra__h3 font-weight-bold"> OFF</span>
                     <p className="text-uppercase">for new customers </p>
